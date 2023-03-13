@@ -1,0 +1,358 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{greenhouse}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Oxford English Dictionary}
+      \field{title}{Greenhouse}
+      \verb{urlraw}
+      \verb https://www.oed.com/view/Entry/81202?redirectedFrom=greenhouse#eid
+      \endverb
+      \verb{url}
+      \verb https://www.oed.com/view/Entry/81202?redirectedFrom=greenhouse#eid
+      \endverb
+    \endentry
+    \entry{LI2020105096}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0c51415c3f27a5458c76ba0b1d561fc0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Kangji},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3a4fc836293192ce3e7f66e4ed1a3f49}{%
+           family={Sha},
+           familyi={S\bibinitperiod},
+           given={Zhengdao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ff9eb4619d79f94efe2b93d34b7991bb}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Wenping},
+           giveni={W\bibinitperiod}}}%
+        {{hash=4f4900cae2c11cda82284d85107e92ae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=4269471898c16775c091e758ead63f52}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Hanping},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d1494604e6a0845ef6a1e0607b7f606a}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0dc34527262622658edb32b773d28153}
+      \strng{fullhash}{8ec2751501899eb5fa9f9d4be4b89339}
+      \strng{bibnamehash}{8ec2751501899eb5fa9f9d4be4b89339}
+      \strng{authorbibnamehash}{8ec2751501899eb5fa9f9d4be4b89339}
+      \strng{authornamehash}{0dc34527262622658edb32b773d28153}
+      \strng{authorfullhash}{8ec2751501899eb5fa9f9d4be4b89339}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0168-1699}
+      \field{journaltitle}{Computers and Electronics in Agriculture}
+      \field{title}{A fast modeling and optimization scheme for greenhouse environmental system using proper orthogonal decomposition and multi-objective genetic algorithm}
+      \field{volume}{168}
+      \field{year}{2020}
+      \field{pages}{105096}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.compag.2019.105096
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168169919309172
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168169919309172
+      \endverb
+      \warn{\item Entry 'LI2020105096' (references.bib): Invalid format '2023-2-24' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{rizwan2022optimal}{article}{}
+      \name{author}{4}{}{%
+        {{hash=45b8c8c8b9693318928c86ff7b157426}{%
+           family={Rizwan},
+           familyi={R\bibinitperiod},
+           given={Atif},
+           giveni={A\bibinitperiod}}}%
+        {{hash=597371cbba46862d202639ac56ee66e0}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Anam\bibnamedelima Nawaz},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=158e27212d3ea7e124812425aa845eb1}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Rashid},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9249663cbbaf22d8c995e87d10ec99c7}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Do\bibnamedelima Hyeun},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{1711d023a0d9070f63b3495f8c774fe9}
+      \strng{fullhash}{84e08217722e44894628f4f545969fd4}
+      \strng{bibnamehash}{84e08217722e44894628f4f545969fd4}
+      \strng{authorbibnamehash}{84e08217722e44894628f4f545969fd4}
+      \strng{authornamehash}{1711d023a0d9070f63b3495f8c774fe9}
+      \strng{authorfullhash}{84e08217722e44894628f4f545969fd4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Internet of Things Journal}
+      \field{title}{Optimal Environment Control Mechanism Based on OCF Connectivity for Efficient Energy Consumption in Greenhouse}
+      \field{year}{2022}
+      \warn{\item Entry 'rizwan2022optimal' (references.bib): Invalid format '2023-2-24' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{hartley_botanic}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=be923518f1995c27d6841cef5c4424c2}{%
+           family={Botanic},
+           familyi={B\bibinitperiod},
+           given={Hartley},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{be923518f1995c27d6841cef5c4424c2}
+      \strng{fullhash}{be923518f1995c27d6841cef5c4424c2}
+      \strng{bibnamehash}{be923518f1995c27d6841cef5c4424c2}
+      \strng{authorbibnamehash}{be923518f1995c27d6841cef5c4424c2}
+      \strng{authornamehash}{be923518f1995c27d6841cef5c4424c2}
+      \strng{authorfullhash}{be923518f1995c27d6841cef5c4424c2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Greenhouse buying guide: Size, location, type}
+      \verb{urlraw}
+      \verb https://hartley-botanic.com/guides/what-size-greenhouse-i-need-us/
+      \endverb
+      \verb{url}
+      \verb https://hartley-botanic.com/guides/what-size-greenhouse-i-need-us/
+      \endverb
+    \endentry
+    \entry{watson_boudreau_van_iersel_2018}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=8da518c264e426f51264b39faf1ba701}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Richard\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=db2ac14be4a1e8736c1735bb3243dad4}{%
+           family={Boudreau},
+           familyi={B\bibinitperiod},
+           given={Marie-Claude},
+           giveni={M\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=755b48de824798bf0ac7edffe96e4990}{%
+           family={Iersel},
+           familyi={I\bibinitperiod},
+           given={Marc\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{2d5cff198a0a68f3e9a331b002d57659}
+      \strng{fullhash}{2d5cff198a0a68f3e9a331b002d57659}
+      \strng{bibnamehash}{2d5cff198a0a68f3e9a331b002d57659}
+      \strng{authorbibnamehash}{2d5cff198a0a68f3e9a331b002d57659}
+      \strng{authornamehash}{2d5cff198a0a68f3e9a331b002d57659}
+      \strng{authorfullhash}{2d5cff198a0a68f3e9a331b002d57659}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SpringerOpen}
+      \field{month}{8}
+      \field{title}{Simulation of greenhouse energy use: An application of Energy Informatics - Energy Informatics}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://energyinformatics.springeropen.com/articles/10.1007/s42162-018-0005-7
+      \endverb
+      \verb{url}
+      \verb https://energyinformatics.springeropen.com/articles/10.1007/s42162-018-0005-7
+      \endverb
+    \endentry
+    \entry{scott_2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ff24f87a4fc783e20a207a4f6c58deaf}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff24f87a4fc783e20a207a4f6c58deaf}
+      \strng{fullhash}{ff24f87a4fc783e20a207a4f6c58deaf}
+      \strng{bibnamehash}{ff24f87a4fc783e20a207a4f6c58deaf}
+      \strng{authorbibnamehash}{ff24f87a4fc783e20a207a4f6c58deaf}
+      \strng{authornamehash}{ff24f87a4fc783e20a207a4f6c58deaf}
+      \strng{authorfullhash}{ff24f87a4fc783e20a207a4f6c58deaf}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ETCentric}
+      \field{month}{4}
+      \field{title}{Consumers are using phones to control smart home devices}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.etcentric.org/consumers-are-using-phones-to-control-smart-home-devices/
+      \endverb
+      \verb{url}
+      \verb https://www.etcentric.org/consumers-are-using-phones-to-control-smart-home-devices/
+      \endverb
+    \endentry
+    \entry{dht22}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2551c95bb0ab4f1b8eccde9897f0e9b9}{%
+           family={Industries},
+           familyi={I\bibinitperiod},
+           given={Adafruit},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2551c95bb0ab4f1b8eccde9897f0e9b9}
+      \strng{fullhash}{2551c95bb0ab4f1b8eccde9897f0e9b9}
+      \strng{bibnamehash}{2551c95bb0ab4f1b8eccde9897f0e9b9}
+      \strng{authorbibnamehash}{2551c95bb0ab4f1b8eccde9897f0e9b9}
+      \strng{authornamehash}{2551c95bb0ab4f1b8eccde9897f0e9b9}
+      \strng{authorfullhash}{2551c95bb0ab4f1b8eccde9897f0e9b9}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{adafruit industries blog RSS}
+      \field{title}{DHT22 temperature-humidity sensor + extras}
+      \verb{urlraw}
+      \verb https://www.adafruit.com/product/385
+      \endverb
+      \verb{url}
+      \verb https://www.adafruit.com/product/385
+      \endverb
+    \endentry
+    \entry{vercelletto_2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fe240637fddc20c578bf4d1742a45477}{%
+           family={Vercelletto},
+           familyi={V\bibinitperiod},
+           given={Niko},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {HappySprout}%
+      }
+      \strng{namehash}{fe240637fddc20c578bf4d1742a45477}
+      \strng{fullhash}{fe240637fddc20c578bf4d1742a45477}
+      \strng{bibnamehash}{fe240637fddc20c578bf4d1742a45477}
+      \strng{authorbibnamehash}{fe240637fddc20c578bf4d1742a45477}
+      \strng{authornamehash}{fe240637fddc20c578bf4d1742a45477}
+      \strng{authorfullhash}{fe240637fddc20c578bf4d1742a45477}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{HappySprout}
+      \field{month}{5}
+      \field{title}{What to know about greenhouse lighting}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.happysprout.com/outdoor-living/greenhouse-grow-lights-lighting-requirements/
+      \endverb
+      \verb{url}
+      \verb https://www.happysprout.com/outdoor-living/greenhouse-grow-lights-lighting-requirements/
+      \endverb
+    \endentry
+    \entry{technologies_2021}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Light Science Technologies}
+      \field{month}{9}
+      \field{title}{Led grow light spectrum guide}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://lightsciencetech.com/led-grow-light-spectrum-guide/
+      \endverb
+      \verb{url}
+      \verb https://lightsciencetech.com/led-grow-light-spectrum-guide/
+      \endverb
+    \endentry
+    \entry{devops_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=407432c641358300c37673ae96305f3a}{%
+           family={DevOps},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{407432c641358300c37673ae96305f3a}
+      \strng{fullhash}{407432c641358300c37673ae96305f3a}
+      \strng{bibnamehash}{407432c641358300c37673ae96305f3a}
+      \strng{authorbibnamehash}{407432c641358300c37673ae96305f3a}
+      \strng{authornamehash}{407432c641358300c37673ae96305f3a}
+      \strng{authorfullhash}{407432c641358300c37673ae96305f3a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Drygair Greenhouse Dehumidifiers}
+      \field{month}{4}
+      \field{title}{Optimal humidity and temperature for greenhouse growing - drygair}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://drygair.com/blog/optimal-humidity-temperature-greenhouse/#:~:text=Most\%20common\%20greenhouse\%20crops\%20require,most\%20greenhouses\%20around\%20the\%20world.
+      \endverb
+      \verb{url}
+      \verb https://drygair.com/blog/optimal-humidity-temperature-greenhouse/#:~:text=Most%5C%20common%5C%20greenhouse%5C%20crops%5C%20require,most%5C%20greenhouses%5C%20around%5C%20the%5C%20world.
+      \endverb
+    \endentry
+    \entry{wikipedia_2023}{misc}{}
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wikipedia}
+      \field{month}{3}
+      \field{title}{ESP32}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/ESP32
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/ESP32
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

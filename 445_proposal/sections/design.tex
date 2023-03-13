@@ -1,0 +1,70 @@
+\subsection{Block Diagram} 
+The design's block diagram overview is shown in Fig. \ref{fig:overview_block_diagram}. In order to decrease the size of the accessories in the model, leaving more space for the growing area, only the necessary sensors and a chip microcontroller would be left in the model. The information collected by the sensors will be packaged and sent to a cloud server. The server will then process these data, sending them to the mobile phone. The users can view this information directly on their mobile phones, and adjust the environmental settings.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.8\textwidth]{Figure/block_overview.pdf}
+\caption{Overview of block diagram}
+\label{fig:overview_block_diagram}
+\end{figure}
+
+
+\subsection{Subsystem Overview} 
+The detailed information of each block (subsystem) is shown in Fig. \ref{fig:d_block}. 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.8\textwidth]{Figure/detailed_block.pdf}
+\caption{Detailed Subsystem}
+\label{fig:d_block}
+\end{figure}
+
+\subsubsection{Growing Space}
+This is the space where plants grow and is the central part of this tabletop greenhouse landscape. Environmental factors such as temperature, humidity, and this part need to be controlled by the program we designed. This desktop landscape facility is soil cultivation, and it can detect whether various environmental conditions are suitable through the mobile app.
+
+\textbf{Requirements:} 
+The shell of the model should have good light transmission (plastic or glass) and should be able to achieve excellent heat preservation and moisture retention. The vent design must not affect the functionality required by the previous two points.
+% For each subsystem in your block diagram, you should include a highly detailed block description. Each description must include a statement indicating how the block contributes to the overall design dictated by the high-level requirements. Any interfaces with other blocks must be defined clearly and quantitatively. Include a list of requirements where if any of these requirements were removed, the subsystem would fail to function. Good example: Power Subsystem must be able to supply at least 500mA to the rest of the system continuously at 5V +/- 0.1V.
+
+\subsubsection{Illumination System}
+The light inside the growing space is provided by side-by-side LED devices. Since plants need different light conditions at different growth stages, we need to control the wavelength, intensity, and duration of light in the growing space by changing the light of LEDs. It is worth mentioning that the light environment outside the greenhouse is also under our consideration, such as the difference between day and night light, to maintain the stability of the light environment in the growing space. These light conditions are measured by a photoresist and portable optical wavelength meter and reflected in the mobile app.
+
+\textbf{Requirements:}
+In general, plants need more blue light when growing and maturing and then need red and orange light when blooming and producing.\cite{vercelletto_2021} The LEDs should be able to provide blue light wavelength at 400-500nm, the green light spectrum from 500-600nm, red light at 600-700nm, and far-red radiation from 700-800nm, meeting the requirements for greenhouse planting.\cite{technologies_2021}
+% is connected to growth and flowering and can improve the quality of certain types of plant. When used in conjunction with other grow light spectrum wavelengths, blue light can help you tightly manage growth cycles. The green light spectrum from 500-600nm is not seen to be as useful as the other wavelengths for plant grown but it is valuable for photosynthesis and research has found that green light can ‘actually promote extension growth’ and that the results it offers depend on intensity and type of crop. Then, red light at 600-700nm is one of the most efficient grow light spectrums for photosynthesis and plant biomass growth and is one of the most efficient spectrums for plant growth and energy consumption. Finally, far-red radiation from 700-800nm can promote extension growth and ‘influences the size of the leaves, the length of stems, and ultimately the height of plants.’ 
+
+
+\subsubsection{Air Circulation System}
+Plants need a suitable air environment to grow, which we need to provide in the growing space. We want to achieve air filtration and circulation through a filter and fan, timed to switch on and off through the app's control program. We will also install air composition testing instruments and reflect the data in real-time on the cell phone app, which can remotely control the switch of the air circulation system.
+
+\textbf{Requirements:}
+The system should be able to adjust its exhaust airflow according to the plants in the growing space and the information received from the air quality detector. Different kinds of plants have different efficiency in filtering the air quality, while their abilities on absorbing the specific harmful particles in the air are various. For example, aloe vera is a good formaldehyde absorber, which can absorb 90\% of formaldehyde contained in 1 cubic meter of air but may have lower efficiency on other particles. 
+
+
+\subsubsection{Temperature Control System}
+This system controls the temperature in the growing space to meet the different needs of different plants and different growth stages of plants. We achieve temperature control through a small air conditioner that works with the air circulation system to raise or lower the temperature. At the same time, the temperature in the growing space will also be measured by a digital thermometer for real-time transmission to the cell phone app.
+
+\textbf{Requirements:}
+The temperature should be able to maintain a temperature range of around 18º-24ºC (64ºF – 75ºF), as the temperatures outside of this range would normally lead to slower or halted growth and suboptimal plant quality.\cite{devops_2022}
+
+\subsubsection{Humidity Control System}
+This system is used to provide plants with the right humidity environment for growth by adjusting the supply of water. We use a Soil Moisture Sensor to detect the humidity condition of the plants. Underneath the device, we are equipped with a water tank, which can be watered regularly through the mobile app's control or manually through a moisture sensor that detects the soil moisture condition.
+
+\textbf{Requirements:}
+The humidity control system should be able to maintain humidity around 80\%, which is a relative humidity setpoint for most plants. At this level, growth rates are highest for common greenhouse plants. At higher or lower humidity levels, plant physiological processes may slow down, leading to slower growth and lower quality output.\cite{devops_2022}
+
+\subsubsection{Real-time Monitoring System}
+The detection system can detect the growing space in real-time, and this is detected by the installed camera. At the same time, we can monitor the situation inside through the mobile app.
+
+\textbf{Requirements:}
+Currently, we don't have the requirements for video quality. To save energy, the default status for the camera module should be off. It should be manually controlled by the mobile phone.
+
+\subsubsection{Main Control System (together with a chip microcontroller)}
+The main control system is composed of an ESP32\cite{wikipedia_2023}, a Tencent Cloud Server, and a mobile phone app. All the sensors' information should be first sent to ESP32 to process and packaging. These data should be then pushed into the cloud server. The cloud server will set up a log for them. The mobile phone app can receive the information from the server and feed it back to the user. At the same time, we can also remotely control the light, temperature, humidity, and air condition in the device through the mobile app and can set the timer operation or threshold operation. The mobile app can also give suggested ranges of various parameters for the user's reference based on the information in the database and network according to the plant type and growth stage selected by the user.
+
+\textbf{Requirements:}
+ESP32 should be able to handle multiple sensors' information. The server should be able to store users' information and a database for planting. A backup for the sensors should also be included as a part of the database on the server. The basic features of the mobile phone app are like a remote controller. All the sensors' switchers are integrated into the app.
+
+\subsection{Tolerance Analysis} 
+For the growing area, there will be a challenge in the selection of the material for the shell. The temperature and humidity maintaining function will be mainly counted on this, as we do not hope that these systems are always on. A good heat and humidity insolation can save much energy, and decrease the burden on the power supply. However, if we use a 3D printer to print the model, we have limited choices in the material. 
+Another challenge is the design of the LED array. In such a small space, it is hard to give a specific wavelength with sufficient light intensity. We also need to consider the affection of the luminousness of the shell, which can influence the performance of the LEDs.
