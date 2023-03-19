@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.2)  19 MAR 2023 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.2)  19 MAR 2023 19:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -285,7 +285,7 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 36.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 34.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -295,24 +295,24 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
@@ -332,7 +332,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 34.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -342,9 +342,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count294
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -407,17 +407,17 @@ l.15
       [1
 
 ]
-<Figure/visual_overview.pdf, id=125, 963.6pt x 542.025pt>
+<Figure/visual_overview.pdf, id=120, 963.6pt x 542.025pt>
 File: Figure/visual_overview.pdf Graphic file (type pdf)
 <use Figure/visual_overview.pdf>
 Package pdftex.def Info: Figure/visual_overview.pdf  used on input line 20.
 (pdftex.def)             Requested size: 375.80544pt x 211.38889pt.
-<Figure/upper_level.pdf, id=126, 963.6pt x 542.025pt>
+<Figure/upper_level.pdf, id=121, 963.6pt x 542.025pt>
 File: Figure/upper_level.pdf Graphic file (type pdf)
 <use Figure/upper_level.pdf>
 Package pdftex.def Info: Figure/upper_level.pdf  used on input line 27.
 (pdftex.def)             Requested size: 375.80544pt x 211.38889pt.
-<Figure/lower_level.pdf, id=127, 963.6pt x 542.025pt>
+<Figure/lower_level.pdf, id=122, 963.6pt x 542.025pt>
 File: Figure/lower_level.pdf Graphic file (type pdf)
 <use Figure/lower_level.pdf>
 Package pdftex.def Info: Figure/lower_level.pdf  used on input line 34.
@@ -425,12 +425,12 @@ Package pdftex.def Info: Figure/lower_level.pdf  used on input line 34.
  [2 <./Figure/visual_overview.pdf>] [3 <./Figure/upper_level.pdf> <./Figure/lower_level.pdf>]) [4
 
 ] (./sections/design.tex
-<Figure/block_overview.pdf, id=213, 646.86511pt x 483.76845pt>
+<Figure/block_overview.pdf, id=208, 646.86511pt x 483.76845pt>
 File: Figure/block_overview.pdf Graphic file (type pdf)
 <use Figure/block_overview.pdf>
 Package pdftex.def Info: Figure/block_overview.pdf  used on input line 6.
 (pdftex.def)             Requested size: 375.80544pt x 281.05832pt.
-<Figure/detailed_block.pdf, id=215, 1489.42177pt x 975.62956pt>
+<Figure/detailed_block.pdf, id=210, 1489.42177pt x 975.62956pt>
 File: Figure/detailed_block.pdf Graphic file (type pdf)
 <use Figure/detailed_block.pdf>
 Package pdftex.def Info: Figure/detailed_block.pdf  used on input line 17.
@@ -447,10 +447,7 @@ Overfull \hbox (4.02426pt too wide) in paragraph at lines 47--49
 []\OT1/ppl/b/n/12 Requirements: \OT1/ppl/m/n/12 The tem-per-a-ture should be able to main-tain a tem-per-a-ture range of around
  []
 
-[7]) [8] (./sections/cost.tex) [9
-
-
-] (./sections/ethics.tex) [10
+[7]) [8] (./sections/ethics.tex) [9
 
 
 ] (./main.bbl
@@ -473,25 +470,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--92
 \OT1/ppl/m/n/12 20common % 20greenhouse % 20crops % 20require ,[] most % 20greenhouses % 20around %
  []
 
-) [11
+) [10
 
 ] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1E6F70C038D6B2DAA1ED438BCD05F813;3026.
+(rerunfilecheck)             Checksum: 5EBC63527CF92D5D1B628ED15AAFC0F2;2962.
  ) 
 Here is how much of TeX's memory you used:
- 10747 strings out of 478994
- 157608 string characters out of 5858185
+ 10740 strings out of 478994
+ 157524 string characters out of 5858185
  490352 words of memory out of 5000000
- 27981 multiletter control sequences out of 15000+600000
+ 27979 multiletter control sequences out of 15000+600000
  423647 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,7n,74p,1717b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (13 pages, 389443 bytes).
+Output written on main.pdf (12 pages, 388687 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

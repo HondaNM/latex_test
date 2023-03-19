@@ -15,5 +15,4 @@
 \contentsline {subsubsection}{\numberline {2.2.6}Real-time Monitoring System}{7}{subsubsection.2.2.6}%
 \contentsline {subsubsection}{\numberline {2.2.7}Main Control System (together with a chip microcontroller)}{8}{subsubsection.2.2.7}%
 \contentsline {subsection}{\numberline {2.3}Tolerance Analysis}{8}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Cost}{9}{section.3}%
-\contentsline {section}{\numberline {4}Ethics and Safety}{10}{section.4}%
+\contentsline {section}{\numberline {3}Ethics and Safety}{9}{section.3}%
